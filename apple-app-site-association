@@ -2,8 +2,10 @@
 "applinks": {
         "apps": [],
         "details": [
-            {
-                "appID": "ZUS3VSYWSA.ru.tvoydom"
+            {"appID": "ZUS3VSYWSA.ru.tvoydom",
+                "paths": [
+                    "/catalog/*"
+                ]
             }
         ]
     },
