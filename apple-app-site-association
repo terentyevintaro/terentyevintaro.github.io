@@ -1,18 +1,21 @@
 {
-"applinks": {
-        "apps": [],
-        "details": [
-            { 
-              "appID": "9788X9JWK3.ru.tvoydom",
-                "paths": [
-                    "*"
-                ]
-            }
-        ]
+    "applinks": {
+        "details": [{
+            "appIDs": ["9788X9JWK3.ru.tvoydom"],
+            "components": [{
+                "/": "*",
+                "comment": "Matches any URL whose path starts with *"
+            }]
+        }]
     },
     "webcredentials": {
         "apps": [
             "9788X9JWK3.ru.tvoydom"
+        ]
+    },
+    "appclips": {
+        "apps": [
+            "9788X9JWK3.ru.tvoydom.Clip"
         ]
     }
 }
