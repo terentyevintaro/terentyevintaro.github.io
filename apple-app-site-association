@@ -2,9 +2,10 @@
 "applinks": {
         "apps": [],
         "details": [
-            { "appID": "9788X9JWK3.ru.tvoydom",
+            { 
+              "appID": "9788X9JWK3.ru.tvoydom",
                 "paths": [
-                    "/catalog/*"
+                    "*"
                 ]
             }
         ]
